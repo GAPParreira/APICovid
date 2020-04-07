@@ -5,14 +5,14 @@ import com.fasterxml.jackson.annotation.JsonIgnoreProperties;
 @JsonIgnoreProperties(ignoreUnknown=true)
 public class Recovered {
 	
-	private int value;
+	private Long value;
 	private String detail;
 	
-	public int getValue() {
+	public Long getValue() {
 		return value;
 	}
 	
-	public void setValue(int value) {
+	public void setValue(Long value) {
 		this.value = value;
 	}
 	

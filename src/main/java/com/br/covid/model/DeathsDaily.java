@@ -2,13 +2,13 @@ package com.br.covid.model;
 
 import com.fasterxml.jackson.annotation.JsonIgnoreProperties;
 
-@JsonIgnoreProperties(ignoreUnknown=true)
-public class ConfirmedDaily {
-	private Long total;
+@JsonIgnoreProperties(ignoreUnknown = true)
+public class DeathsDaily {
+    private Long total;
     private Long china;
     private Long outsideChina;
 
-    public ConfirmedDaily() {
+    public DeathsDaily() {
     } 
 
     public Long getTotal() {

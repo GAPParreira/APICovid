@@ -3,13 +3,13 @@ package com.br.covid.model;
 import com.fasterxml.jackson.annotation.JsonIgnoreProperties;
 
 @JsonIgnoreProperties(ignoreUnknown=true)
-public class ConfirmedDaily {
-	private Long total;
+public class DeltaConfirmedDetail {
+    private Long total;
     private Long china;
     private Long outsideChina;
 
-    public ConfirmedDaily() {
-    } 
+    public DeltaConfirmedDetail() {
+    }
 
     public Long getTotal() {
         return total;
@@ -33,5 +33,7 @@ public class ConfirmedDaily {
 
     public void setOutsideChina(Long outsideChina) {
         this.outsideChina = outsideChina;
-    }    
+    }
+
+    
 }
